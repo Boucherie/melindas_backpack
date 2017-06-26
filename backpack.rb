@@ -14,7 +14,7 @@ class Backpack
     weather = @attributes[:weather]
     day_of_week = @attributes[:day_of_week]
 
-    # Ensure appropriate clothing is added to backpack
+    # Ensure appropriate clothing for weather is added to backpack
     if weather == 'rainy'
       @items << 'pants'
       @items << 'shirt'
@@ -45,7 +45,7 @@ class Backpack
   end
 
   # Prints a summary packing list for Melinda's backpack
-  def my_func
+  def my_packing_list
     output = []
     output << "Melinda, here's your packing list!"
     output << "Day: #{@attributes[:day_of_week]}, Weather: #{@attributes[:weather]}"
