@@ -42,9 +42,6 @@ class BackpackTest < MiniTest::Test
     end
   end
 
-
-  ###### TESTS ABOUT GYM SHOES... wait, where are the tests about gym shoes? #####
-  # is something missing here?
 def test_that_packs_gym_shoes_monday_thursday
   ['monday', 'thursday'].each do |day|
     backpack = build(:backpack, day_of_week: day)

@@ -51,7 +51,7 @@ Refactoring: Pick a more meaningful name, and replace all references with the ne
 ## Code Smell 4 - Long Method
 Code Smell: Is the `prepare` method doing too much? Is it too long to keep in your head all at once?
 
-Refactoring: Perform the 'Extract Method' refactoring recipe.
+## Refactoring: Perform the 'Extract Method' refactoring recipe.
 1. Find a chunk of code that goes together, and give the concept a name.
 2. Make an empty method with that name.
 3. Call the method from the same place as the code you're moving.
